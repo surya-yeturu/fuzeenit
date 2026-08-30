@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#111111"/>
+  <rect x="24" y="24" width="352" height="192" rx="8" fill="#1F1F1F"/>
+  <rect x="48" y="48" width="140" height="100" rx="6" fill="#0A0A0A" stroke="#333" stroke-width="1"/>
+  <rect x="56" y="58" width="100" height="6" rx="2" fill="#D71920"/>
+  <rect x="56" y="72" width="124" height="4" rx="1" fill="#444"/>
+  <rect x="56" y="82" width="110" height="4" rx="1" fill="#444"/>
+  <rect x="56" y="92" width="90" height="4" rx="1" fill="#444"/>
+  <rect x="56" y="110" width="124" height="24" rx="3" fill="#D71920" opacity="0.2"/>
+  <rect x="212" y="48" width="140" height="100" rx="6" fill="#0A0A0A" stroke="#333" stroke-width="1"/>
+  <rect x="224" y="60" width="8" height="8" rx="1" fill="#D71920"/>
+  <rect x="238" y="60" width="80" height="4" rx="1" fill="#666"/>
+  <rect x="224" y="78" width="116" height="4" rx="1" fill="#444"/>
+  <rect x="224" y="90" width="100" height="4" rx="1" fill="#444"/>
+  <rect x="224" y="102" width="116" height="4" rx="1" fill="#444"/>
+  <path d="M188 98h24" stroke="#D71920" stroke-width="2"/>
+  <path d="M200 86v24" stroke="#D71920" stroke-width="2"/>
+  <text x="200" y="228" text-anchor="middle" fill="#666" font-family="system-ui,sans-serif" font-size="11" font-weight="600">FULL STACK DEVELOPMENT</text>
+</svg>

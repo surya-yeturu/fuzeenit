@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#111111"/>
+  <rect x="24" y="24" width="352" height="192" rx="8" fill="#1F1F1F"/>
+  <rect x="48" y="130" width="40" height="50" rx="3" fill="#D71920" opacity="0.6"/>
+  <rect x="96" y="110" width="40" height="70" rx="3" fill="#D71920" opacity="0.8"/>
+  <rect x="144" y="90" width="40" height="90" rx="3" fill="#D71920"/>
+  <rect x="192" y="100" width="40" height="80" rx="3" fill="#666"/>
+  <rect x="240" y="80" width="40" height="100" rx="3" fill="#666"/>
+  <rect x="288" y="105" width="40" height="75" rx="3" fill="#444"/>
+  <path d="M48 130 L96 110 L144 90 L192 100 L240 80 L288 105 L336 95" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <circle cx="336" cy="60" r="20" fill="#0A0A0A" stroke="#D71920" stroke-width="1.5"/>
+  <path d="M328 60h16M336 52v16" stroke="#D71920" stroke-width="1.5"/>
+  <text x="200" y="228" text-anchor="middle" fill="#666" font-family="system-ui,sans-serif" font-size="11" font-weight="600">DIGITAL MARKETING</text>
+</svg>

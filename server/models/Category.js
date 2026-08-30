@@ -1,0 +1,44 @@
+import mongoose from 'mongoose';
+
+const categorySchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, 'Category name is required'],
+      trim: true,
+      unique: true,
+    },
+    slug: {
+      type: String,
+      required: true,
+      unique: true,
+      lowercase: true,
+    },
+    description: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    icon: {
+      type: String,
+      default: '',
+    },
+    programCount: {
+      type: Number,
+      default: 0,
+    },
+    order: {
+      type: Number,
+      default: 0,
+    },
+    isActive: {
+      type: Boolean,
+      default: true,
+    },
+  },
+  { timestamps: true }
+);
+
+const Category = mongoose.model('Category', categorySchema);
+
+export default Category;

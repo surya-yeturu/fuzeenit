@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-white text-primary font-sans antialiased transition-colors duration-300;
+    @apply dark:bg-surface dark:text-white;
+  }
+
+  ::selection {
+    @apply bg-brand-red/10 text-primary dark:bg-brand-red/20;
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .page-section {
+    @apply bg-white dark:bg-surface;
+  }
+
+  .page-section-muted {
+    @apply bg-gray-light/50 dark:bg-surface-100/60;
+  }
+
+  .surface-card {
+    @apply rounded-lg border border-gray-100 bg-white dark:border-white/10 dark:bg-surface-100;
+  }
+
+  .text-primary {
+    @apply text-surface dark:text-white;
+  }
+
+  .text-secondary {
+    @apply text-gray-brand dark:text-white/60;
+  }
+
+  .input-field {
+    @apply w-full rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-primary placeholder:text-gray-brand
+      transition-colors duration-200 focus:border-brand-red focus:outline-none focus:ring-1 focus:ring-brand-red
+      dark:border-white/10 dark:bg-surface-200 dark:text-white dark:placeholder:text-white/40
+      dark:focus:border-brand-red dark:focus:ring-brand-red;
+  }
+
+  .link-hover {
+    @apply transition-colors duration-200 hover:text-brand-red dark:hover:text-brand-red-light;
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#111111"/>
+  <rect x="24" y="24" width="352" height="192" rx="8" fill="#1F1F1F"/>
+  <rect x="48" y="56" width="304" height="120" rx="6" fill="#0A0A0A" stroke="#333"/>
+  <rect x="64" y="72" width="16" height="16" rx="3" stroke="#D71920" stroke-width="2" fill="none"/>
+  <path d="M68 80l4 4 8-8" stroke="#D71920" stroke-width="2" stroke-linecap="round"/>
+  <rect x="92" y="76" width="120" height="8" rx="2" fill="#666"/>
+  <rect x="64" y="100" width="16" height="16" rx="3" stroke="#444" stroke-width="1.5" fill="none"/>
+  <rect x="92" y="104" width="100" height="8" rx="2" fill="#444"/>
+  <rect x="64" y="128" width="16" height="16" rx="3" stroke="#444" stroke-width="1.5" fill="none"/>
+  <rect x="92" y="132" width="140" height="8" rx="2" fill="#444"/>
+  <rect x="260" y="72" width="76" height="88" rx="4" fill="#D71920" opacity="0.15"/>
+  <text x="298" y="120" text-anchor="middle" fill="#D71920" font-family="system-ui,sans-serif" font-size="20" font-weight="700">QA</text>
+  <text x="200" y="228" text-anchor="middle" fill="#666" font-family="system-ui,sans-serif" font-size="11" font-weight="600">SOFTWARE TESTING</text>
+</svg>
